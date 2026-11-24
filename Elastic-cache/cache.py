@@ -12,7 +12,7 @@ CORS(app)
 # REDIS CONFIG
 # =========================
 redis_client = redis.Redis(
-    host='mfa-cache-1p1jhc.serverless.use1.cache.amazonaws.com:6379',
+    host='msuredis-1p1jhc.serverless.use1.cache.amazonaws.com:6379',
     port=6379,
     ssl=True,
     decode_responses=True,
